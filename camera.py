@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import tensorflow as tf
 import json
-from tensorflow.keras.applications.resnet50 import preprocess_input
+from keras.applications.resnet50 import preprocess_input
 
 with open('class_names.json', 'r') as f:
     labels = json.load(f)
